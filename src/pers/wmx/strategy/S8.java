@@ -7,7 +7,7 @@ package pers.wmx.strategy;
  * @create: 2018-10-29 15:54
  **/
 public class S8 {
-    LPL lpl;
+    private LPL lpl;
     public S8(LPL lpl){
         this.lpl=lpl;
     }
