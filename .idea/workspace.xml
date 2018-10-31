@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe2c7cc8-aea8-4c4f-a03c-e9111178265b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/factorymethod/Coke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/factorymethod/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/factorymethod/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/factorymethod/FrenchFries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/factorymethod/Hamburger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/factorymethod/KFC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/factorymethod/备注.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/factorymethod/类图.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wmx/proxy/类图.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/wmx/proxy/类图.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,7 +64,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="18" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="png" value="5" />
           <entry key="txt" value="4" />
         </counts>
@@ -81,22 +73,22 @@
         <counts>
           <entry key="Image" value="5" />
           <entry key="JAVA" value="18" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="815" />
-          <entry key="md" value="15" />
-          <entry key="txt" value="278" />
+          <entry key="md" value="30" />
+          <entry key="txt" value="283" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="815" />
-          <entry key="Markdown" value="15" />
-          <entry key="PLAIN_TEXT" value="278" />
+          <entry key="Markdown" value="30" />
+          <entry key="PLAIN_TEXT" value="283" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -107,15 +99,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wmx/strategy/ContestMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/proxy/类图.png">
           <provider selected="true" editor-type-id="images" />
@@ -138,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/Food.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -147,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/Hamburger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="e#175#176#0" expanded="true" />
                 <element signature="e#211#212#0" expanded="true" />
@@ -160,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/FrenchFries.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="e#175#176#0" expanded="true" />
                 <element signature="e#193#194#0" expanded="true" />
@@ -173,8 +156,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/Coke.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="e#169#170#0" expanded="true" />
                 <element signature="e#205#206#0" expanded="true" />
@@ -186,17 +169,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/KFC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="150">
+                <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -225,7 +220,6 @@
         <option value="$PROJECT_DIR$/src/pers/wmx/strategy/IG.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/strategy/EDG.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/strategy/ContestMain.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/pers/wmx/strategy/备注.txt" />
         <option value="$PROJECT_DIR$/src/pers/wmx/strategy/S8.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/proxy/House.java" />
@@ -243,6 +237,7 @@
         <option value="$PROJECT_DIR$/src/pers/wmx/factorymethod/Coke.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/factorymethod/KFC.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/factorymethod/Customer.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -317,7 +312,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540961368200" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540961760759" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -409,7 +404,7 @@
       <workItem from="1540802008649" duration="24000" />
       <workItem from="1540870171727" duration="4248000" />
       <workItem from="1540879926810" duration="1487000" />
-      <workItem from="1540956910707" duration="1407000" />
+      <workItem from="1540956910707" duration="1801000" />
     </task>
     <task id="LOCAL-00001" summary="备注+类图">
       <created>1540801813946</created>
@@ -425,11 +420,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540875050349</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="工厂方法模式">
+      <created>1540961392592</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540961392592</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9837000" />
+    <option name="totallyTimeSpent" value="10231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="345" y="65" width="1583" height="936" extended-state="0" />
@@ -444,7 +446,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3826474" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27342746" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -476,19 +478,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="备注+类图" />
     <MESSAGE value="代理模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="代理模式" />
+    <MESSAGE value="工厂方法模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="工厂方法模式" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/proxy/ShaheHouse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -603,21 +596,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/FrenchFries.java">
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/Food.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/Hamburger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
           <folding>
             <element signature="e#175#176#0" expanded="true" />
             <element signature="e#211#212#0" expanded="true" />
@@ -625,17 +614,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/Food.java">
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/FrenchFries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/Coke.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="e#169#170#0" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
@@ -645,15 +638,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/KFC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state relative-caret-position="400">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
