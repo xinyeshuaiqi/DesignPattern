@@ -1,0 +1,11 @@
+抽象工厂模式
+
+
+顶级的接口
+实现顶级接口的抽象类
+继承抽象类的子类
+
+在Spring、Mybatis中都有用到这种设计模式
+比如在Spring的ApplicationContext ，Mybatis的StatementHandler
+
+
