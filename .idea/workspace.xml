@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe2c7cc8-aea8-4c4f-a03c-e9111178265b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/templatemethod/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/templatemethod/LOL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/templatemethod/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/templatemethod/备注.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/wmx/templatemethod/类图.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/wmx/abstractfactory/备注.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/wmx/abstractfactory/备注.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/wmx/adapter/备注.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/wmx/adapter/备注.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/wmx/facade/备注.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/wmx/facade/备注.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/wmx/factorymethod/备注.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/wmx/factorymethod/备注.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/wmx/templatemethod/LOL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/wmx/templatemethod/LOL.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +72,7 @@
           <entry key="java" value="83" />
           <entry key="md" value="4" />
           <entry key="png" value="12" />
-          <entry key="txt" value="10" />
+          <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -79,21 +80,21 @@
           <entry key="Image" value="12" />
           <entry key="JAVA" value="83" />
           <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="3099" />
           <entry key="md" value="54" />
-          <entry key="txt" value="708" />
+          <entry key="txt" value="716" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="3099" />
           <entry key="Markdown" value="54" />
-          <entry key="PLAIN_TEXT" value="708" />
+          <entry key="PLAIN_TEXT" value="716" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -105,10 +106,56 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/facade/备注.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/adapter/备注.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/abstractfactory/备注.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/templatemethod/备注.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state>
+              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/strategy/备注.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/proxy/备注.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/备注.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -116,8 +163,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/templatemethod/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="325">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -125,8 +172,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/templatemethod/LOL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="250">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding>
                 <element signature="e#185#186#0" expanded="true" />
                 <element signature="e#203#204#0" expanded="true" />
@@ -147,23 +194,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/templatemethod/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="250">
-                <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="175">
+              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -186,14 +221,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/pers/wmx/proxy/ChangpingHouse.java" />
-        <option value="$PROJECT_DIR$/src/pers/wmx/factorymethod/备注.txt" />
         <option value="$PROJECT_DIR$/src/pers/wmx/factorymethod/Food.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/factorymethod/Hamburger.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/factorymethod/FrenchFries.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/factorymethod/Coke.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/factorymethod/KFC.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/factorymethod/Customer.java" />
-        <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/备注.txt" />
         <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/Car.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/BmwCar.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/MercedesCar.java" />
@@ -219,12 +252,10 @@
         <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/CarFactory1.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/BMW2.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/Mercedes2.java" />
-        <option value="$PROJECT_DIR$/src/pers/wmx/facade/备注.txt" />
         <option value="$PROJECT_DIR$/src/pers/wmx/facade/OrderHandle.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/facade/JD.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/facade/OrderHandleImpl.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/facade/Customer.java" />
-        <option value="$PROJECT_DIR$/src/pers/wmx/adapter/备注.txt" />
         <option value="$PROJECT_DIR$/src/pers/wmx/adapter/UserInfo.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/adapter/OuterUser.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/adapter/OuterUserImpl.java" />
@@ -233,9 +264,13 @@
         <option value="$PROJECT_DIR$/src/pers/wmx/adapter/Main.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/pers/wmx/templatemethod/备注.txt" />
-        <option value="$PROJECT_DIR$/src/pers/wmx/templatemethod/LOL.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/templatemethod/Game.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/templatemethod/Main.java" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/templatemethod/LOL.java" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/factorymethod/备注.txt" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/facade/备注.txt" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/adapter/备注.txt" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/备注.txt" />
       </list>
     </option>
   </component>
@@ -284,6 +319,41 @@
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="wmx" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wmx" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wmx" type="462c0819:PsiDirectoryNode" />
+              <item name="factorymethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wmx" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wmx" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wmx" type="462c0819:PsiDirectoryNode" />
               <item name="templatemethod" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,18 +370,18 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541663817272" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541664206980" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\data\code\DesignPattern\DesignPattern\src\pers\wmx\templatemethod" />
       <recent name="D:\data\code\DesignPattern\DesignPattern\src\pers\wmx\adapter" />
       <recent name="D:\data\code\DesignPattern\DesignPattern\src\pers\wmx\facade" />
       <recent name="D:\data\code\DesignPattern\DesignPattern\src\pers\wmx\abstractfactory" />
       <recent name="D:\data\code\DesignPattern\DesignPattern\src\pers\wmx\factorymethod" />
-      <recent name="D:\data\code\DesignPattern\DesignPattern\src\pers\wmx\proxy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -428,7 +498,7 @@
       <workItem from="1541398813386" duration="9846000" />
       <workItem from="1541489586312" duration="4177000" />
       <workItem from="1541576046897" duration="4975000" />
-      <workItem from="1541660614932" duration="2513000" />
+      <workItem from="1541660614932" duration="2909000" />
     </task>
     <task id="LOCAL-00001" summary="备注+类图">
       <created>1540801813946</created>
@@ -493,11 +563,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541580801218</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="模板方法模式">
+      <created>1541663862298</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1541663862298</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31852000" />
+    <option name="totallyTimeSpent" value="32248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -550,15 +627,10 @@
     <MESSAGE value="类图" />
     <MESSAGE value="门面模式" />
     <MESSAGE value="适配器模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="适配器模式" />
+    <MESSAGE value="模板方法模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="模板方法模式" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/proxy/类图.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/类图.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/Food.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -606,13 +678,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/abstractfactory/ApplicationContext.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/abstractfactory/备注.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/abstractfactory/Mercedes_S.java" />
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/abstractfactory/BMW3.java" />
@@ -713,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/备注.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/facade/facade/Customer.java" />
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/facade/facade/备注.txt" />
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/facade/类图.png">
@@ -761,13 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/facade/备注.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="8" selection-start-line="2" selection-end-line="8" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/adapter/OuterUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -806,13 +857,6 @@
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/adapter/对象适配器结构图.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/adapter/备注.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/adapter/本例类图.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -833,24 +877,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/templatemethod/备注.txt">
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/templatemethod/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="325">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/templatemethod/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/templatemethod/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="175">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/templatemethod/LOL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="250">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding>
             <element signature="e#185#186#0" expanded="true" />
             <element signature="e#203#204#0" expanded="true" />
@@ -870,10 +914,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/templatemethod/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/templatemethod/备注.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/strategy/备注.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/proxy/备注.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/factorymethod/备注.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/facade/备注.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/adapter/备注.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/abstractfactory/备注.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>

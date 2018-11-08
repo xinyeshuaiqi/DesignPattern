@@ -8,7 +8,7 @@ package pers.wmx.templatemethod;
  **/
 public class LOL extends Game{
 
-    private boolean thirsty = true;
+    private boolean thirsty;
 
     @Override
     protected void goBar() {
