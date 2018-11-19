@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe2c7cc8-aea8-4c4f-a03c-e9111178265b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/command/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/command/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/command/PlayCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/command/PressInvoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/command/RewindCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/command/StopCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/command/备注.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/command/类图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/wmx/decorator/BrickHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/wmx/decorator/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/wmx/decorator/LuxuryHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/wmx/decorator/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/wmx/decorator/ThatchHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/wmx/decorator/备注.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -65,43 +62,43 @@
     <session id="549879877">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="109" />
-          <entry key="md" value="7" />
+          <entry key="java" value="114" />
+          <entry key="md" value="8" />
           <entry key="png" value="15" />
-          <entry key="txt" value="23" />
+          <entry key="txt" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="15" />
-          <entry key="JAVA" value="109" />
-          <entry key="Markdown" value="7" />
-          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="JAVA" value="114" />
+          <entry key="Markdown" value="8" />
+          <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3865" />
-          <entry key="md" value="64" />
-          <entry key="txt" value="784" />
+          <entry key="java" value="4395" />
+          <entry key="md" value="67" />
+          <entry key="txt" value="794" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3865" />
-          <entry key="Markdown" value="64" />
-          <entry key="PLAIN_TEXT" value="784" />
+          <entry key="JAVA" value="4395" />
+          <entry key="Markdown" value="67" />
+          <entry key="PLAIN_TEXT" value="794" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -112,114 +109,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/decorator/备注.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/decorator/House.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/decorator/ThatchHouse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/decorator/BrickHouse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="22" />
+              <folding>
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pers/wmx/command/备注.txt">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/decorator/LuxuryHouse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wmx/command/AudioPlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="475">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
-                <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wmx/builder/BMWBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wmx/command/StopCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-              <folding>
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wmx/command/RewindCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-              <folding>
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wmx/command/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wmx/command/类图.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wmx/command/Command.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wmx/command/PlayCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wmx/command/PressInvoker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-              <folding>
-                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
                 <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/decorator/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="350">
+                <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -241,12 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/Mercedes_G.java" />
-        <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/CarEnum.java" />
-        <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/CarFactory2.java" />
-        <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/Main.java" />
-        <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/BMW1.java" />
-        <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/Mercedes1.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/CarFactory1.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/BMW2.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/Mercedes2.java" />
@@ -281,7 +242,6 @@
         <option value="$PROJECT_DIR$/src/pers/wmx/bridge/Main.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/bridge/GreenCircle.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/bridge/备注.txt" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/pers/wmx/Command/备注.txt" />
         <option value="$PROJECT_DIR$/src/pers/wmx/command/Commond.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/command/PlayCommand.java" />
@@ -292,6 +252,13 @@
         <option value="$PROJECT_DIR$/src/pers/wmx/command/Main.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/command/AudioPlayer.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/command/备注.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/decorator/备注.txt" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/decorator/House.java" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/decorator/ThatchHouse.java" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/decorator/BrickHouse.java" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/decorator/LuxuryHouse.java" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/decorator/Person.java" />
       </list>
     </option>
   </component>
@@ -302,8 +269,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="143" />
-    <option name="y" value="102" />
+    <option name="x" value="111" />
+    <option name="y" value="10" />
     <option name="width" value="1583" />
     <option name="height" value="1000" />
   </component>
@@ -315,7 +282,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -339,7 +307,7 @@
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="wmx" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
@@ -349,14 +317,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542341114920" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542608798929" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -382,20 +349,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pers.wmx.adapter.Main" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pers.wmx.adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Person">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pers.wmx.templatemethod.Main" />
       <module name="DesignPattern" />
@@ -448,20 +402,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.wmx.decorator.Person" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.wmx.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Person" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Person" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -487,7 +454,8 @@
       <workItem from="1541660614932" duration="3987000" />
       <workItem from="1542176571535" duration="5557000" />
       <workItem from="1542277383343" duration="1311000" />
-      <workItem from="1542334990155" duration="4507000" />
+      <workItem from="1542334990155" duration="4544000" />
+      <workItem from="1542594198183" duration="6115000" />
     </task>
     <task id="LOCAL-00001" summary="备注+类图">
       <created>1540801813946</created>
@@ -587,17 +555,24 @@
       <option name="project" value="LOCAL" />
       <updated>1542336677427</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="命令模式">
+      <created>1542341130369</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1542341130369</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44701000" />
+    <option name="totallyTimeSpent" value="50853000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23027718" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23294243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -606,7 +581,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44160178" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3003337" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -615,7 +590,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.44605118" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.3003337" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -648,35 +623,10 @@
     <MESSAGE value="update" />
     <MESSAGE value="建造者模式" />
     <MESSAGE value="桥接模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="桥接模式" />
+    <MESSAGE value="命令模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="命令模式" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/abstractfactory/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/facade/facade/Customer.java" />
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/facade/facade/备注.txt" />
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/facade/类图.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/facade/OrderHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/facade/OrderHandleImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" selection-start-line="6" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/facade/JD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -853,10 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,10 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -902,16 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="325">
-            <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/builder/BMWBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -933,10 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -944,10 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -955,12 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -968,10 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,25 +896,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/command/备注.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/command/AudioPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="17" column="22" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="350">
+            <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/decorator/备注.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/decorator/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/decorator/House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/decorator/ThatchHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/command/备注.txt">
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/decorator/BrickHouse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="575">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/decorator/LuxuryHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
