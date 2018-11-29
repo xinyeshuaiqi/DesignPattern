@@ -4,12 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/src/pers/wmx/builder/Main.java" line="11" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe2c7cc8-aea8-4c4f-a03c-e9111178265b" name="Default Changelist" comment="状态模式">
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/prototype/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/prototype/PersonInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/prototype/备注.txt" afterDir="false" />
+    <list default="true" id="fe2c7cc8-aea8-4c4f-a03c-e9111178265b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pers/wmx/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/wmx/singleton/Singleton1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/wmx/singleton/Singleton2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/wmx/singleton/备注.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,32 +73,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="150" />
+          <entry key="java" value="153" />
           <entry key="md" value="15" />
           <entry key="png" value="22" />
-          <entry key="txt" value="31" />
+          <entry key="txt" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="22" />
-          <entry key="JAVA" value="150" />
+          <entry key="JAVA" value="153" />
           <entry key="Markdown" value="15" />
-          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="PLAIN_TEXT" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7952" />
+          <entry key="java" value="7974" />
           <entry key="md" value="94" />
-          <entry key="txt" value="908" />
+          <entry key="txt" value="923" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7952" />
+          <entry key="JAVA" value="7974" />
           <entry key="Markdown" value="94" />
-          <entry key="PLAIN_TEXT" value="908" />
+          <entry key="PLAIN_TEXT" value="923" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -110,44 +110,45 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wmx/prototype/备注.txt">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/singleton/备注.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="125">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wmx/prototype/PersonInfo.java">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/singleton/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="42" column="17" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="375">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/singleton/Singleton1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding>
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pers/wmx/prototype/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/singleton/Singleton2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="400">
-                <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="-25">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -170,10 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pers/wmx/command/RewindCommand.java" />
-        <option value="$PROJECT_DIR$/src/pers/wmx/command/StopCommand.java" />
-        <option value="$PROJECT_DIR$/src/pers/wmx/command/PressInvoker.java" />
-        <option value="$PROJECT_DIR$/src/pers/wmx/command/Main.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/command/AudioPlayer.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/command/备注.txt" />
         <option value="$PROJECT_DIR$/src/pers/wmx/decorator/备注.txt" />
@@ -221,6 +218,10 @@
         <option value="$PROJECT_DIR$/src/pers/wmx/prototype/备注.txt" />
         <option value="$PROJECT_DIR$/src/pers/wmx/prototype/PersonInfo.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/prototype/Main.java" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/singleton/备注.txt" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/singleton/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/singleton/Singleton1.java" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/singleton/Singleton2.java" />
       </list>
     </option>
   </component>
@@ -268,7 +269,7 @@
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="wmx" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
@@ -285,7 +286,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543483051809" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543483446801" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -433,7 +434,7 @@
       <workItem from="1543455806520" duration="4485000" />
       <workItem from="1543463597391" duration="1214000" />
       <workItem from="1543472644119" duration="687000" />
-      <workItem from="1543482100886" duration="936000" />
+      <workItem from="1543482100886" duration="1343000" />
     </task>
     <task id="LOCAL-00001" summary="备注+类图">
       <created>1540801813946</created>
@@ -589,11 +590,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543462357857</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="原型模式">
+      <created>1543483080308</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1543483080308</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80553000" />
+    <option name="totallyTimeSpent" value="80960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -608,7 +616,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49573562" weight="0.37931034" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49520257" visible="true" weight="0.37931034" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.42380422" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -617,7 +625,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.44605118" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5042644" side_tool="true" visible="true" weight="0.16351502" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50479746" side_tool="true" visible="true" weight="0.37931034" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -658,33 +666,10 @@
     <MESSAGE value="责任链模式" />
     <MESSAGE value="访问者模式" />
     <MESSAGE value="状态模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="状态模式" />
+    <MESSAGE value="原型模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="原型模式" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/decorator/LuxuryHouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/decorator/类图.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/iterator/IUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk1.8/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/iterator/IUserIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -992,8 +977,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/prototype/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state relative-caret-position="425">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/singleton/备注.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/singleton/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/singleton/Singleton1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/singleton/Singleton2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
