@@ -1,0 +1,1 @@
+根据接口隔离原则拆分接口pers.wmx.principle.interfacesegregation.version1.IPettyGirl
