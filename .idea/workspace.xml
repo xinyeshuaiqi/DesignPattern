@@ -4,20 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/pers/wmx/builder/Main.java" line="11" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe2c7cc8-aea8-4c4f-a03c-e9111178265b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version1/AbstractSearcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version1/IPettyGirl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version1/PettyGirl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version1/Searcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/AbstractSearcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/GoodBodyGirlSearcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/GreatTemperamentSearcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/IGoodBodyGirl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/IGreatTemperamentGirl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/PettyGirl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/备注.txt" afterDir="false" />
+    <list default="true" id="fe2c7cc8-aea8-4c4f-a03c-e9111178265b" name="Default Changelist" comment="接口隔离原则">
+      <change afterPath="$PROJECT_DIR$/src/pers/wmx/principle/dependenceinversion/version1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/wmx/principle/dependenceinversion/version2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -120,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version1/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -128,14 +117,32 @@
       <file leaf-file-name="GreatTemperamentSearcher.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/GreatTemperamentSearcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+            <state relative-caret-position="162">
+              <caret line="6" selection-start-line="6" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/dependenceinversion/version1/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="28" column="1" lean-forward="true" selection-start-line="6" selection-end-line="28" selection-end-column="1" />
               <folding>
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/dependenceinversion/version2/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -144,7 +151,7 @@
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/IGreatTemperamentGirl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="38" />
+              <caret line="2" selection-start-line="2" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -152,8 +159,8 @@
       <file leaf-file-name="AbstractSearcher.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/AbstractSearcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="567">
+              <caret line="23" column="1" selection-start-line="8" selection-end-line="23" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -161,39 +168,17 @@
       <file leaf-file-name="GoodBodyGirlSearcher.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/GoodBodyGirlSearcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-              <folding>
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="7" selection-start-line="7" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IGoodBodyGirl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IGoodBodyGirl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/IGoodBodyGirl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
               <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractSearcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version1/AbstractSearcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" selection-start-line="6" selection-end-line="15" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Searcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version1/Searcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="6" selection-start-line="6" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -210,8 +195,8 @@
       <file leaf-file-name="PettyGirl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version1/PettyGirl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="28" column="1" lean-forward="true" selection-start-line="6" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="540">
+              <caret line="28" column="1" selection-start-line="6" selection-end-line="28" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -233,9 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/BMW2.java" />
-        <option value="$PROJECT_DIR$/src/pers/wmx/abstractfactory/Mercedes2.java" />
-        <option value="$PROJECT_DIR$/src/pers/wmx/facade/OrderHandle.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/facade/JD.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/facade/OrderHandleImpl.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/facade/Customer.java" />
@@ -284,6 +266,9 @@
         <option value="$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/GoodBodyGirlSearcher.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/GreatTemperament.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/Client.java" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/principle/dependenceinversion/Main.java" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/principle/dependenceinversion/version1/Main.java" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/principle/dependenceinversion/version2/Main.java" />
       </list>
     </option>
   </component>
@@ -316,6 +301,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -348,14 +334,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pers" type="462c0819:PsiDirectoryNode" />
               <item name="wmx" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pers" type="462c0819:PsiDirectoryNode" />
-              <item name="wmx" type="462c0819:PsiDirectoryNode" />
               <item name="principle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -365,7 +343,7 @@
               <item name="pers" type="462c0819:PsiDirectoryNode" />
               <item name="wmx" type="462c0819:PsiDirectoryNode" />
               <item name="principle" type="462c0819:PsiDirectoryNode" />
-              <item name="interfacesegregation" type="462c0819:PsiDirectoryNode" />
+              <item name="dependenceinversion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
@@ -374,7 +352,7 @@
               <item name="pers" type="462c0819:PsiDirectoryNode" />
               <item name="wmx" type="462c0819:PsiDirectoryNode" />
               <item name="principle" type="462c0819:PsiDirectoryNode" />
-              <item name="interfacesegregation" type="462c0819:PsiDirectoryNode" />
+              <item name="dependenceinversion" type="462c0819:PsiDirectoryNode" />
               <item name="version1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -384,15 +362,45 @@
               <item name="pers" type="462c0819:PsiDirectoryNode" />
               <item name="wmx" type="462c0819:PsiDirectoryNode" />
               <item name="principle" type="462c0819:PsiDirectoryNode" />
-              <item name="interfacesegregation" type="462c0819:PsiDirectoryNode" />
+              <item name="dependenceinversion" type="462c0819:PsiDirectoryNode" />
+              <item name="version1" type="462c0819:PsiDirectoryNode" />
+              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+              <item name="wmx" type="462c0819:PsiDirectoryNode" />
+              <item name="principle" type="462c0819:PsiDirectoryNode" />
+              <item name="dependenceinversion" type="462c0819:PsiDirectoryNode" />
               <item name="version2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+              <item name="wmx" type="462c0819:PsiDirectoryNode" />
+              <item name="principle" type="462c0819:PsiDirectoryNode" />
+              <item name="dependenceinversion" type="462c0819:PsiDirectoryNode" />
+              <item name="version2" type="462c0819:PsiDirectoryNode" />
+              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+              <item name="wmx" type="462c0819:PsiDirectoryNode" />
+              <item name="principle" type="462c0819:PsiDirectoryNode" />
+              <item name="interfacesegregation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -411,11 +419,11 @@
       <recent name="pers.wmx.principle.interfacesegregation.version2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\办公\code\DesignPattern\DesignPattern\src\pers\wmx\principle\dependenceinversion\version2" />
       <recent name="D:\data\code\DesignPattern\DesignPattern\src\pers\wmx\builder" />
       <recent name="D:\data\code\DesignPattern\DesignPattern\src\pers\wmx\templatemethod" />
       <recent name="D:\data\code\DesignPattern\DesignPattern\src\pers\wmx\adapter" />
       <recent name="D:\data\code\DesignPattern\DesignPattern\src\pers\wmx\facade" />
-      <recent name="D:\data\code\DesignPattern\DesignPattern\src\pers\wmx\abstractfactory" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -430,7 +438,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pers.wmx.principle.interfacesegregation.version2.Client" />
       <module name="DesignPattern" />
@@ -451,22 +459,12 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pers.wmx.templatemethod.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.wmx.principle.dependenceinversion.version2.Main" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pers.wmx.templatemethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pers.wmx.builder.Main" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pers.wmx.builder.*" />
+          <option name="PATTERN" value="pers.wmx.principle.dependenceinversion.version2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -481,20 +479,30 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.wmx.principle.dependenceinversion.version1.Main" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.wmx.principle.dependenceinversion.version1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -619,7 +627,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43896000" />
+    <option name="totallyTimeSpent" value="46496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -634,27 +642,48 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.23240939" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35817575" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.44605118" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25361514" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23560767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2196162" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="LuaJ" order="6" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="CheckStyle" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23560767" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.44605118" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.23240939" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
+      <window_info anchor="right" id="LuaJ" order="6" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35817575" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Designer" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,23 +705,10 @@
     <MESSAGE value="update" />
     <MESSAGE value="建造者模式" />
     <MESSAGE value="桥接模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="桥接模式" />
+    <MESSAGE value="接口隔离原则" />
+    <option name="LAST_COMMIT_MESSAGE" value="接口隔离原则" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/facade/OrderHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/facade/OrderHandleImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" selection-start-line="6" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/facade/JD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -940,15 +956,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/PettyGirl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="32" />
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="176">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -969,27 +985,21 @@
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version1/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/GreatTemperamentSearcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
-          <folding>
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version1/PettyGirl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="6" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="540">
+          <caret line="28" column="1" selection-start-line="6" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1003,25 +1013,21 @@
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/IGreatTemperamentGirl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="38" />
+          <caret line="2" selection-start-line="2" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/AbstractSearcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="567">
+          <caret line="23" column="1" selection-start-line="8" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/GoodBodyGirlSearcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1029,6 +1035,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/dependenceinversion/version1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="6" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/dependenceinversion/version2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
