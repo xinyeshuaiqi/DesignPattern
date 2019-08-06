@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe2c7cc8-aea8-4c4f-a03c-e9111178265b" name="Default Changelist" comment="接口隔离原则">
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/principle/dependenceinversion/version1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/wmx/principle/dependenceinversion/version2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/wmx/principle/lowofdemeter/A.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -105,15 +104,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version1/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GreatTemperamentSearcher.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/interfacesegregation/version2/GreatTemperamentSearcher.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,23 +116,26 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/dependenceinversion/version1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="28" column="1" lean-forward="true" selection-start-line="6" selection-end-line="28" selection-end-column="1" />
-              <folding>
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="648">
+              <caret line="28" column="1" selection-start-line="6" selection-end-line="28" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/dependenceinversion/version2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="91">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/lowofdemeter/A.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -212,13 +205,20 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\办公\code\DesignPattern\DesignPattern\src\pers\wmx\principle\interfacesegregation</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pers/wmx/facade/JD.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/facade/OrderHandleImpl.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/facade/Customer.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/adapter/UserInfo.java" />
@@ -269,6 +269,7 @@
         <option value="$PROJECT_DIR$/src/pers/wmx/principle/dependenceinversion/Main.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/principle/dependenceinversion/version1/Main.java" />
         <option value="$PROJECT_DIR$/src/pers/wmx/principle/dependenceinversion/version2/Main.java" />
+        <option value="$PROJECT_DIR$/src/pers/wmx/principle/lowofdemeter/A.java" />
       </list>
     </option>
   </component>
@@ -288,10 +289,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="497" />
-    <option name="y" value="28" />
-    <option name="width" value="1940" />
-    <option name="height" value="1000" />
+    <option name="x" value="-7" />
+    <option name="width" value="1934" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -301,8 +301,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -343,64 +341,15 @@
               <item name="pers" type="462c0819:PsiDirectoryNode" />
               <item name="wmx" type="462c0819:PsiDirectoryNode" />
               <item name="principle" type="462c0819:PsiDirectoryNode" />
-              <item name="dependenceinversion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pers" type="462c0819:PsiDirectoryNode" />
-              <item name="wmx" type="462c0819:PsiDirectoryNode" />
-              <item name="principle" type="462c0819:PsiDirectoryNode" />
-              <item name="dependenceinversion" type="462c0819:PsiDirectoryNode" />
-              <item name="version1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pers" type="462c0819:PsiDirectoryNode" />
-              <item name="wmx" type="462c0819:PsiDirectoryNode" />
-              <item name="principle" type="462c0819:PsiDirectoryNode" />
-              <item name="dependenceinversion" type="462c0819:PsiDirectoryNode" />
-              <item name="version1" type="462c0819:PsiDirectoryNode" />
-              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pers" type="462c0819:PsiDirectoryNode" />
-              <item name="wmx" type="462c0819:PsiDirectoryNode" />
-              <item name="principle" type="462c0819:PsiDirectoryNode" />
-              <item name="dependenceinversion" type="462c0819:PsiDirectoryNode" />
-              <item name="version2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pers" type="462c0819:PsiDirectoryNode" />
-              <item name="wmx" type="462c0819:PsiDirectoryNode" />
-              <item name="principle" type="462c0819:PsiDirectoryNode" />
-              <item name="dependenceinversion" type="462c0819:PsiDirectoryNode" />
-              <item name="version2" type="462c0819:PsiDirectoryNode" />
-              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pers" type="462c0819:PsiDirectoryNode" />
-              <item name="wmx" type="462c0819:PsiDirectoryNode" />
-              <item name="principle" type="462c0819:PsiDirectoryNode" />
-              <item name="interfacesegregation" type="462c0819:PsiDirectoryNode" />
+              <item name="lowofdemeter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -531,6 +480,9 @@
       <workItem from="1563458932871" duration="657000" />
       <workItem from="1563548962206" duration="606000" />
       <workItem from="1564501330925" duration="2439000" />
+      <workItem from="1564585222894" duration="698000" />
+      <workItem from="1564669735055" duration="1592000" />
+      <workItem from="1565105879851" duration="349000" />
     </task>
     <task id="LOCAL-00001" summary="备注+类图">
       <created>1540801813946</created>
@@ -623,11 +575,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542279660582</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="接口隔离原则">
+      <created>1564584531000</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1564584531000</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46496000" />
+    <option name="totallyTimeSpent" value="49203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -635,7 +594,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -643,47 +601,27 @@
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.23240939" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.44605118" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25361514" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35817575" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2196162" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24360341" />
       <window_info anchor="right" id="Database" order="8" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23560767" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.44605118" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.23240939" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
-      <window_info anchor="right" id="LuaJ" order="6" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="CheckStyle" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35817575" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="LuaJ" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -709,13 +647,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="接口隔离原则" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pers/wmx/facade/JD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/facade/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1040,21 +971,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/dependenceinversion/version1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="6" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="648">
+          <caret line="28" column="1" selection-start-line="6" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/dependenceinversion/version2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="91">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wmx/principle/lowofdemeter/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
